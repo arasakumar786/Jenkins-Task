@@ -1,0 +1,35 @@
+Started by user ARASAKUMAR S
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Demo-build
+[Demo-build] $ /bin/sh -xe /tmp/jenkins326390082110960828.sh
++ echo 'SYSTEM INFORMATION'
+SYSTEM INFORMATION
+++ date
++ echo 'Date: Tue May  5 05:58:28 UTC 2026'
+Date: Tue May  5 05:58:28 UTC 2026
++ echo Uptime:
+Uptime:
++ uptime
+ 05:58:28 up 12 min,  2 users,  load average: 0.00, 0.01, 0.01
++ echo 'Memory Usage:'
+Memory Usage:
++ free -h
+               total        used        free      shared  buff/cache   available
+Mem:           916Mi       572Mi        69Mi       5.0Mi       274Mi       201Mi
+Swap:             0B          0B          0B
++ echo 'Disk Usage:'
+Disk Usage:
++ df -h
+Filesystem        Size  Used Avail Use% Mounted on
+devtmpfs          4.0M     0  4.0M   0% /dev
+tmpfs             459M     0  459M   0% /dev/shm
+tmpfs             184M  444K  183M   1% /run
+/dev/nvme0n1p1     15G  2.7G   13G  18% /
+tmpfs             459M  4.8M  454M   2% /tmp
+/dev/nvme0n1p128   10M  1.3M  8.7M  13% /boot/efi
+tmpfs              92M     0   92M   0% /run/user/1000
++ echo 'Current User:'
+Current User:
++ whoami
+jenkins
+Finished: SUCCESS
